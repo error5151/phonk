@@ -1,0 +1,87 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 6px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+h1, h3 {
+    text-align: center;
+}
+#photo {
+    margin: 0 auto;
+    width: 530px;
+    height: 550px;
+    position: relative;
+}
+#photo a{
+    background-color: white;
+    border: solid 1px black;
+    padding: 10px;
+    position: absolute;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+img {
+    border-radius: 10px;
+}
+#photo a:hover{
+    z-index: 1;
+}
+#a1 {
+    top: 10px;
+    left: 10px;
+}
+#a2 {
+    top: 50px;
+    left: 50px;
+}
+#a3 {
+    top: 90px;
+    left: 90px;
+}
+#a4 {
+    top: 130px;
+    left: 130px;
+}
+#a5 {
+    top: 170px;
+    left: 170px;
+}
+#a6 {
+    top: 210px;
+    left: 210px;
+}
+#a7 {
+    top: 250px;
+    left: 250px;
+}
+#a8 {
+    top: 290px;
+    left: 290px;
+}
+#menu {
+    margin: 0 auto;
+    width: 600px;
+}
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+#menu ul li {
+    text-align: center;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    width: 200px;
+    float: left;
+    list-style-type: none;
+ }
+#menu ul li a{
+    text-decoration: none;
+    line-height: 20px;
+    color: black;
+    height: 20px;
+    display: block;
+}
+#menu ul li a:hover{
+    background: #AC0102;
+    color: white;
+}
